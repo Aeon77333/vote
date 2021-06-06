@@ -1,0 +1,26 @@
+//////////////////////////////////////////////////
+// 全体で利用したいmixinを定義する。
+//////////////////////////////////////////////////
+
+// @import 'variables';
+
+// // Media query for Smartphone
+// @mixin smartphone {
+//   @media screen and (max-width: $smartphone-max-width) {
+//     @content;
+//   }
+// }
+
+// // Media query for Tablet
+// @mixin tablet {
+//   @media screen and (min-width: $tablet-min-width) and (max-width: $tablet-max-width) {
+//     @content;
+//   }
+// }
+
+// // Media query for Tablet & PC
+// @mixin tablet-and-pc {
+//   @media screen and (min-width: $tablet-min-width) {
+//     @content;
+//   }
+// }

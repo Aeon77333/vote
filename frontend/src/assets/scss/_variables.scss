@@ -1,0 +1,54 @@
+// 全体で利用したい変数を定義する。
+
+//////////////////////////////////////////////////
+// Theme Color (start)
+
+// Base Color
+$tc-base: #fdfdfd !default; // 70%
+$tc-main: #f07666 !default; // 25%
+$tc-accent: #f00 !default; // 5%
+$tc-sub: #f0f0f0 !default;
+$tc-error: #f3869d !default;
+$tc-base-hover: darken($tc-base, 5%) !default;
+$tc-main-hover: lighten($tc-main, 5%) !default;
+$tc-accent-hover: darken($tc-accent, 5%) !default;
+$tc-error-hover: darken($tc-error, 5%) !default;
+$tc-main-active: lighten($tc-main, 3%) !default;
+
+// Font Color
+$tc-font-main: $tc-main !default;
+$tc-font-accent: $tc-accent !default;
+$tc-font-base: #333 !default;
+$tc-font-sub: #fff !default;
+$tc-font-error: $tc-error !default;
+
+// Border Color
+$tc-border-main: $tc-main !default;
+$tc-border-accent: $tc-accent !default;
+$tc-border-base: #333 !default;
+$tc-border-sub: #ccc !default;
+$tc-border-error: $tc-error !default;
+
+// Theme Color (end)
+//////////////////////////////////////////////////
+
+// Font Size
+$font-size-smallest: 8px !default;
+$font-size-smaller: 10px !default;
+$font-size-small: 12px !default;
+$font-size-base: 16px !default;
+$font-size-large: 16px !default;
+$font-size-larger: 18px !default;
+$font-size-largest: 20px !default;
+$font-size-header: 30px !default;
+
+// Font Weight
+$font-weight-regular: 400 !default;
+$font-weight-bold: 700 !default;
+
+// Component Z-index
+$z-index-icon: 99 !default;
+$z-index-modal-dialog: 500 !default;
+$z-index-confirm-dialog: 1000 !default;
+$z-index-loader: 10000 !default;
+$z-index-toast: 100000 !default;
