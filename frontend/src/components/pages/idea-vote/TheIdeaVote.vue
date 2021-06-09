@@ -1,6 +1,6 @@
 <template>
   <div class="idea-vote">
-    <div class="idea-vote__attention">※ Vote is limited to 2 votes per person. ※</div>
+    <div class="idea-vote__attention">※ Vote is limited to 5 votes per person. ※</div>
     <!-- TODO: Check vote resultsのボタンは投票結果開示期間以外は非活性にする -->
     <!-- 活性/非活性の方法は投票結果開示期間の日時を指定 -->
     <!-- 投票結果開示期間内： 活性    投票結果開示期間外: 非活性 -->
